@@ -1,0 +1,123 @@
+<style>
+              * {
+                            box-sizing: border-box;
+              }
+
+              body {
+                            font-family: Arial, Helvetica, sans-serif;
+                            background-color:#d7d1c5;
+              }
+
+              /* Style the header */
+              header {
+                            padding: 30px;
+                            text-align: center;
+                            font-size: 35px;
+                            color: black;
+              }
+             
+              /* Container for flexboxes */
+              section {
+                            display: -webkit-flex;
+                            display: flex;
+              }
+
+
+            
+
+              /* Style the content */
+              article {
+                            -webkit-flex: 3;
+                            -ms-flex: 3;
+                            flex: 3;
+                            background-color: #6d6c68;
+                            padding: 10px;
+              }
+
+              /* Style the footer */
+              footer {
+                            background-color:#d7d1c5;
+                            padding: 10px;
+                            text-align: center;
+                            color: white;
+              }
+
+
+              /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+              @media (max-width: 600px) {
+                            section {
+                                          -webkit-flex-direction: column;
+                                          flex-direction: column;
+                            }
+              }
+              ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #ffffff;
+                position: fixed;
+                top: 0;
+                width: 100%;
+              }
+              
+              li {
+                float: left;
+              }
+              
+              li a {
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+              
+              li a:hover {
+                background-color: #001e96;
+              }
+              .active {
+                background-color: #04AA6D;
+              }
+              .knap{
+                font-family: sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                background: #d7d1c5;
+                width: 10px;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                text-transform: uppercase;
+                color:rgb(0, 0, 0);
+                border-radius: 5px;
+                cursor: pointer;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+               border-radius: 15px;
+               border-style: solid;
+                
+              }
+              .knap:hover, .knap:focus, .knap:active{
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+              }
+              .mere-om{
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+                margin-top: 50px;
+                text-align:center
+              
+              }
+              h1{
+                margin-top: 50px;
+                text-align: center;
+              }
+
+              h3{
+                margin-top: 50px;
+                text-align: center;
+                margin-bottom: 50px;
+              }  
+</style>
