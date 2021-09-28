@@ -6,12 +6,10 @@
 body {
               margin: 0;
               font-family: Arial, Helvetica, sans-serif;
-              background-color: #e6e6e6;
+              background-color: #ffc979;
 }
 /* Style the header */
 .header{
-              margin-left: 200px;
-              padding-left: 5px;
               text-align: center;
               background-color: #e6e6e6;
               border-bottom: 3px solid black;         
@@ -21,13 +19,13 @@ body {
 .content {
               margin-left: 200px;
               padding-left: 5px;
-              background-color: #e6e6e6;
+              background-color: #ffc979;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
               float: left;
               width: 20%;
-              padding: 5px;
+
             }
             
 /* Clear floats after image containers */
@@ -42,8 +40,7 @@ body {
 
 /* Clear floats after image containers */
 .body-section{
-              margin-left: ;
-              padding-left: ;
+
               border-top: 5px;
               background-color: #e6e6e6;
 }
@@ -78,9 +75,11 @@ body {
             
             li a:hover {
               background-color: #001e96;
+              color:#ffffff;
             }
             .active {
-              background-color: #04AA6D;
+              background-color: #001e96;
+              color:#ffffff;
             }
             .main-area{
               width: 40%;
@@ -112,7 +111,8 @@ body {
           max-width: 100%;
         }
         .text-col{
-          margin-left: 15px;
+          margin-left: 10px;
+          margin-right: 5px;
         }
         .img-col{
           margin-top: 10px;
@@ -135,6 +135,7 @@ body {
           width: 40%;
           float: left;
           background-color: bisque;
+          min-height: 250px;
           
         }
         .container-40-right{
@@ -145,8 +146,9 @@ body {
           margin-right: 50px;
           margin-bottom: 10px;
           width: 40%;
-          float: right;
+         float: inline-end;
           background-color: bisque;
+          min-height: 250px;
         }
 
         .overskrift-skole{
@@ -166,8 +168,56 @@ body {
         margin-right: auto;
         width: 50%;
         }
-        body{
-          padding-left: 20px;
+
+
+        .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
         }
         
+        .fa:hover {
+            opacity: 0.7;
+        }
+        
+        .fa-facebook {
+          background: #4267B2;
+          color: white;
+        }
+        
+        .fa-twitter {
+          background: #1DA1F2;
+          color: white;
+        }
+        .fa-linkedin {
+          background: #007bb5;
+          color: white;
+        }
+        .fa-instagram {
+          background: #E1306C;
+          color: white;
+        }
+
+        footer {
+          background-color:bisque;
+          padding: 10px;
+          text-align: center;
+          color: white;
+          margin-top: 50px;
+}
+
+
+.lilletekst {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: bisque;
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
 </style>
